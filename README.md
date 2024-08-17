@@ -62,4 +62,4 @@ test_df = testset.to_pandas()
 The output is a Pandas DataFrame containing the generated test sets, which can be further analyzed or used for model evaluation.
 
 ## License
-This project is licensed under the MIT License. 
+This project is licensed under the [MIT License](/LICENSE.txt). 
