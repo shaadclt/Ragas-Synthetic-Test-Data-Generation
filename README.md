@@ -27,7 +27,7 @@ To get started, clone the repository and install the required dependencies.
 3. Set up the HuggingFace BGE embeddings for document processing.
 
 ### Load Documents from PubMed
-Use the PubMedLoader from langchain_community to load documents related to a specific query (e.g., "cancer"). In this project, we load a maximum of 5 documents.
+Use the `PubMedLoader` from `langchain_community` to load documents related to a specific query (e.g., "cancer"). In this project, we load a maximum of 5 documents.
 
 ```python
 loader = PubMedLoader("cancer", load_max_docs=5)
